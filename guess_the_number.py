@@ -4,7 +4,6 @@ init = input('Would you like to play a game (y/n)? ').lower()
 init = init.strip()
 
 num = randint(1,50)
-print(num)
 
 while True:
     if init == 'y':
